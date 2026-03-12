@@ -1,6 +1,5 @@
 # JJikEoVoCa Backend Server
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) 
 This repository provides Python-based TCP/IP socket server architecture designed for a comprehensive English vocabulary learning application. The backend manages user wordbooks, integrates a Retrieval-Augmented Generation (RAG) AI chatbot for personalized coaching, processes image-to-text OCR for scanning vocabulary, and evaluates pronunciation via Speech-to-Text (STT) APIs.
 
 ---
@@ -137,9 +136,9 @@ ensure you are not opening the .db file exclusively with external DB
 viewers while the server is running.
 
 ---
+## License & Acknowledgments
 
-## License
-This source code is licensed under the **MIT License**. See the `LICENSE` file for details.  
+This source code is tailored specifically for the Team Soncoding.
 
 ---
 _Last Updated: March 13, 2026_
