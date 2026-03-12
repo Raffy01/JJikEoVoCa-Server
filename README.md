@@ -1,5 +1,5 @@
 # JJikEoVoCa Backend Server
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) 
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) \
 This repository provides Python-based TCP/IP socket server architecture designed for a comprehensive English vocabulary learning application. The backend manages user wordbooks, integrates a Retrieval-Augmented Generation (RAG) AI chatbot for personalized coaching, processes image-to-text OCR for scanning vocabulary, and evaluates pronunciation via Speech-to-Text (STT) APIs.
 
 ---
