@@ -1,0 +1,75 @@
+폴더 PATH의 목록입니다.
+볼륨 일련 번호는 56EC-E322입니다.
+C:.
+│  config.py
+│  main.py
+│  my-service-account-key.json
+│  requirements.txt
+│  tree.txt
+│                             
+├─handlers
+│  │  authentication_handler.py
+│  │  chatbot_handler.py
+│  │  dictionary_handler.py
+│  │  friends_handler.py
+│  │  pronunciation_handler.py
+│  │  STT_handler.py
+│  │  tag_handler.py
+│  │  wordbook_handler.py
+│  │  word_handler.py
+│   └ __init__.py 
+├─lib
+│  │  ai_client.py
+│  │  db_manager.py
+│  │  hybridToText.py
+│  │  imageToText.py
+│  │  service.py
+│  │  similarity_checker.py
+│  │  STT_google.py
+│  │  T2T.py
+│  └  vector_store.py
+│          
+├─res
+│  ├─cert
+│  │      server.crt
+│  │      server.key
+│  │      
+│  ├─database
+│  │  │  app.db
+│  │  │  
+│  │  └─chroma_db_data
+│  │      │  chroma.sqlite3
+│  │      │  
+│  │      └─1b7a4333-d6a8-4cd5-a24f-560e90c67f50
+│  ├─log
+│  │      server.log
+│  │      
+│  ├─logs
+│  └      server.log
+│              
+├─tests
+│  │  client_loopback.py
+│  │  __init__.py
+│  │  
+│  └─fixtures
+│      ├─cert
+│      │      server.crt
+│      │      
+│      ├─test_images
+│      │      img1.jpg
+│      │      img2.jpg
+│      │      img3.jpg
+│      │      img4.jpg
+│      │      
+│      └─test_voices
+│              never_gonna_give_you_up.wav
+│              test_voice.wav
+│              
+├─utils
+│  │  audio_converter.py
+│  │  data_transmitter.py
+│  │  hash_utils.py
+│  │  setup_logging.py
+│  │  wordbook_formatter.py
+│  └  __init__.py
+          
