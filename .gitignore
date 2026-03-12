@@ -27,12 +27,7 @@ res/database/chroma_db_data/
 # ---------------------------------------------------
 # 서버 구동 로그
 res/logs/
-res/log/
 *.log
-
-# 클라이언트로부터 수신한 임시 오디오/이미지 파일
-uploads/
-!uploads/.gitkeep  # 빈 폴더 구조는 유지하고 싶다면 주석 해제
 
 # ---------------------------------------------------
 # 4. 파이썬 및 가상환경 (Python & Environments)
@@ -54,6 +49,5 @@ env/
 Thumbs.db
 .DS_Store
 
-# PyCharm, VSCode 등 에디터 설정 파일
+# PyCharm 에디터 설정 파일
 .idea/
-.vscode/
