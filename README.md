@@ -66,7 +66,7 @@ for Cloud Vision and Google Speech-to-Text APIs.
 4. **TLS Certificates**:\
     Place your SSL certificates (`server.crt` and `server.key`) inside 
     the res/cert/ directory to enable encrypted socket communication. \
-    **note** : Generate res, res/cert directory if not exist.
+    **Note** : Generate res, res/cert directory in your project root if not exist.
 
 ---
 
