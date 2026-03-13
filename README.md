@@ -145,7 +145,7 @@ viewers while the server is running.
 
 This source code is tailored specifically for the Team Soncoding.
 
-**Acknowledgements
+**Acknowledgements**
 - AI service architecture and `STT_google.py`, `T2T.py`, `ai_client.py`, `hybridToText.py`, `imageToText.py`, `service.py`, `vector_store.py` are written by **Yongwoo Lee**.
 - Other codes are written by **Wooyong Eom**.
 
