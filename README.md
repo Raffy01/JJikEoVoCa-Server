@@ -49,7 +49,7 @@ for Cloud Vision and Google Speech-to-Text APIs.
 ---
 
 ## **Installation & Setup**
-1. **Install Python dependencies**:\
+1. **Install Python dependencies**:
    ```bash
     pip install -r requirements.txt
     ```
@@ -65,7 +65,8 @@ for Cloud Vision and Google Speech-to-Text APIs.
 
 4. **TLS Certificates**:\
     Place your SSL certificates (`server.crt` and `server.key`) inside 
-    the res/cert/ directory to enable encrypted socket communication.
+    the res/cert/ directory to enable encrypted socket communication. \
+    **note** : Generate res, res/cert directory if not exist.
 
 ---
 
