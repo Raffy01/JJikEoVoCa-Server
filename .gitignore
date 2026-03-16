@@ -7,10 +7,13 @@ my-service-account-key.json
 # 환경 변수 파일 (API 키 보관용)
 .env
 
-# TLS/SSL 인증서 및 개인키 (유출 시 암호화 통신 무력화)
+# TLS/SSL 인증서 및 개인키
 res/cert/*.key
 res/cert/*.crt
 res/cert/*.pem
+
+# 테스트용 인증서
+tests/fixtures/cert/server.crt
 
 # ---------------------------------------------------
 # 2. 데이터베이스 및 저장소 (Databases & Vector Stores)

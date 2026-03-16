@@ -63,10 +63,35 @@ for Cloud Vision and Google Speech-to-Text APIs.
 3. **Service Account Key**:\
     Place your Google Cloud credentials file (`my-service-account-key.json`) in the project root.
 
-4. **TLS Certificates**:\
-    Place your SSL certificates (`server.crt` and `server.key`) inside 
-    the res/cert/ directory to enable encrypted socket communication. \
-    **Note** : Generate res, res/cert directory in your project root if not exist.
+4. **TLS Certificates**:
+    Place your SSL certificates (`server.crt` and `server.key`) inside the `res/cert/` directory to enable encrypted socket communication.
+
+    ### K**How to install OpenSSL & Generate Certificates** : 
+    
+    **a. Install OpenSSL:**
+    - **Windows:** Use [Win32/Win64 OpenSSL](https://slproweb.com/products/Win32OpenSSL.html) or run via Git Bash. Alternatively, using winget:
+      ```cmd
+      winget install -e --id ShiningLight.OpenSSL
+      ```
+    - **Ubuntu/Linux:** 
+      ```bash
+      sudo apt update && sudo apt install openssl
+      ```
+    - **macOS:**
+      ```bash
+      brew install openssl
+      ```
+
+    **b. Generate Self-Signed Certificates with SAN (For Local/Test Environment):**
+    Modern clients strictly verify the Subject Alternative Name (SAN). When connecting via an IP address instead of a domain, that IP must be included in the SAN. 
+    
+    Replace `YOUR_SERVER_IP` with your actual local or public IP address (e.g., `192.168.1.100` or `127.0.0.1`), and run this command from the project root:
+    
+    ```bash
+    mkdir -p res/cert
+    openssl req -x509 -newkey rsa:4096 -keyout res/cert/server.key -out res/cert/server.crt -days 365 -nodes -subj "/CN=YOUR_SERVER_IP" -addext "subjectAltName=IP:YOUR_SERVER_IP"
+    ```
+    *(Note: The `-nodes` flag prevents the key from being encrypted with a passphrase, allowing the backend server to start automatically.)*
 
 ---
 
