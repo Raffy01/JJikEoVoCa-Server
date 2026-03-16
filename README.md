@@ -66,7 +66,7 @@ for Cloud Vision and Google Speech-to-Text APIs.
 4. **TLS Certificates**:
     Place your SSL certificates (`server.crt` and `server.key`) inside the `res/cert/` directory to enable encrypted socket communication.
 
-    ### K**How to install OpenSSL & Generate Certificates** : 
+    ### **How to install OpenSSL & Generate Certificates** : 
     
     **a. Install OpenSSL:**
     - **Windows:** Use [Win32/Win64 OpenSSL](https://slproweb.com/products/Win32OpenSSL.html) or run via Git Bash. Alternatively, using winget:
