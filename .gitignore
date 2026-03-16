@@ -13,7 +13,7 @@ res/cert/*.crt
 res/cert/*.pem
 
 # 테스트용 인증서
-tests/fixtures/cert/server.crt
+tests/fixtures/cert
 
 # ---------------------------------------------------
 # 2. 데이터베이스 및 저장소 (Databases & Vector Stores)
